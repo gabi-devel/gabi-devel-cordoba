@@ -1,31 +1,6 @@
-/*
-|--------------------------------------------------------------------------
-| Be
-| Structure styles
-| http://BeantownThemes.com
-| http://themeforest.net/user/BeantownThemes
-|--------------------------------------------------------------------------
-| 1.0 Grid
-| 2.0 Layout
-| 3.0 Responsive-1240
-| 4.0 Responsive
-|
-*/
-
-
-/*
-|--------------------------------------------------------------------------
-|  1.0 Grid
-|  
-|--------------------------------------------------------------------------
-|
-| 
-|
-*/
-
-
-/* #Base 1200 Grid
-================================================== */
+* {
+	scroll-behavior: smooth;
+  }
 
 body {
 	min-width: 1240px;
@@ -72,6 +47,7 @@ body:not(.template-slider) #Content {
 	float: left;
 	margin: 0 1% 40px;
 }
+
 .column.column_divider, .column-margin-0px .column {
 	margin-bottom: 0;
 }
@@ -1198,35 +1174,11 @@ body.minimalist-header.header-below:not(.template-slider) #Header {
 	-ms-transform: skewX(0deg) skewY(-25deg);
 	transform: skewX(0deg) skewY(-25deg);
 }
-.ie #Top_bar .top_bar_right:before {
-	width: 11px;
-}
 
 /* Top bar width */
 
 #Top_bar .top_bar_left {
 	width: 990px;
-}
-
-/* Logo */
-
-#Top_bar .logo {
-	float: left;
-	margin: 0 30px 0 20px;
-}
-#Top_bar .logo h1 {
-	margin: 0;
-}
-#Top_bar .logo:not(.text-logo) h1 {
-	line-height: 0;
-	font-size: 0;
-	margin: 0;
-}
-#Top_bar #logo {
-	display: block;
-	height: 60px;
-	line-height: 60px;
-	padding: 15px 0px;
 }
 
 /* overflow: hidden; */
@@ -1237,9 +1189,6 @@ body.minimalist-header.header-below:not(.template-slider) #Header {
 #Top_bar #logo img {
 	vertical-align: middle;
 	max-height: 100%;
-}
-#Top_bar #logo img.logo-sticky {
-	display: none;
 }
 
 /* Menu wrapper */
